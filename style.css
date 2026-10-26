@@ -521,3 +521,9 @@ body { width: 100%; }
   background: transparent !important;
   box-shadow: none !important;
 }
+/* Make logo picture bigger */
+.site-header img {
+  width: 70px !important;
+  height: 70px !important;
+  object-fit: cover;
+}
