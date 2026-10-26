@@ -512,3 +512,12 @@ body { width: 100%; }
     flex-direction: column !important;
   }
 }
+/* Logo: rounded square */
+.site-header .logo img,
+.site-header .site-logo,
+.site-header img.logo {
+  border-radius: 14px !important;
+  object-fit: cover;
+  background: transparent !important;
+  box-shadow: none !important;
+}
