@@ -471,3 +471,22 @@ body { width: 100%; }
   color: var(--ink) !important;
   border: 1px solid var(--line) !important;
 }
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .site-header {
+    flex-wrap: wrap;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
