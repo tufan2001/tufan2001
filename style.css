@@ -490,3 +490,15 @@ body { width: 100%; }
     display: block;
   }
 }
+/* Fix mobile hamburger menu */
+@media screen and (max-width: 768px) {
+  #navLinks {
+    display: none !important;
+  }
+
+  #navLinks.open {
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+  }
+}
